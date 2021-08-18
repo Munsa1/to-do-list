@@ -6,7 +6,7 @@
 
 ![screenshot](./screenshot.png)
 
-[Live Demo Link](https://munsa1.github.io/to-do-test/dist)
+[Live Demo Link](https://munsa1.github.io/to-do-list/dist)
 
 "To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.
 
