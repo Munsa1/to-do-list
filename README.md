@@ -63,6 +63,8 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 Data Fair Blog (https://data-flair.training/blogs/javascript-project-to-do-list/)
 
+(https://www.youtube.com/watch?v=cOUNOi297Mw)
+
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
