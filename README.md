@@ -6,7 +6,7 @@
 
 ![screenshot](./screenshot.png)
 
-[Live Demo Link](https://munsa1.github.io/to-do-test/dist)
+[Live Demo Link](https://munsa1.github.io/to-do-list/dist)
 
 "To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.
 
@@ -27,7 +27,7 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
 
 ```cmd
-git clone https://github.com/munsa1/to-do-test.git
+git clone https://github.com/munsa1/to-do-list.git
 cd ./to-do-test
 ```
 
