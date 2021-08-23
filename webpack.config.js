@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
 <<<<<<< HEAD
+<<<<<<< HEAD
   mode: 'production',
   entry: './src/index.js',
   output: {
@@ -14,6 +15,8 @@ module.exports = {
     contentBase: './dist',
   },
 =======
+=======
+>>>>>>> 56de60e763155eeb8a44d3e816eb23934d8e1d56
   entry: './src/index.js',
 
   devtool: 'inline-source-map',
@@ -31,6 +34,9 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     clean: true,
   },
+<<<<<<< HEAD
+>>>>>>> 56de60e763155eeb8a44d3e816eb23934d8e1d56
+=======
 >>>>>>> 56de60e763155eeb8a44d3e816eb23934d8e1d56
   module: {
     rules: [
@@ -41,12 +47,16 @@ module.exports = {
     ],
   },
 <<<<<<< HEAD
+<<<<<<< HEAD
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/index.html',
     }),
   ],
 };
+=======
+};
+>>>>>>> 56de60e763155eeb8a44d3e816eb23934d8e1d56
 =======
 };
 >>>>>>> 56de60e763155eeb8a44d3e816eb23934d8e1d56

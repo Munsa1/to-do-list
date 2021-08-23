@@ -1,32 +1,4 @@
-<<<<<<< HEAD
-import renderItems from './components.js';
-import store from './todo-store.js';
-import './style.css';
 
-const form = document.getElementById('add-todo');
-form.addEventListener('submit', (event) => {
-  event.preventDefault();
-  const description = form.elements[0].value;
-  store.addTodo(description);
-  form.elements[0].value = '';
-});
-
-window.addEventListener('load', () => {
-  document.getElementById('clear-btn').addEventListener('click', () => {
-    store.clearCompleted();
-  });
-
-  const STORE_KEY = 'localstorage/todos';
-
-  store.onUpdate(() => {
-    renderItems(store.todos);
-  });
-  store.onUpdate(() => {
-    localStorage.setItem(STORE_KEY, JSON.stringify(store.todos));
-  });
-  const saved = localStorage.getItem(STORE_KEY);
-  store.loadTodos(saved ? JSON.parse(saved) : []);
-=======
 import { listItemComponent } from './components.js';
 
 const ITEMS = [
@@ -61,5 +33,4 @@ function addItemsToDOM(items = []) {
 
 window.addEventListener('load', () => {
   addItemsToDOM(ITEMS);
->>>>>>> 56de60e763155eeb8a44d3e816eb23934d8e1d56
 });

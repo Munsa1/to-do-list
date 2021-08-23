@@ -28,7 +28,11 @@ To get a local copy up and running follow these simple example steps.
 
 ```cmd
 <<<<<<< HEAD
+<<<<<<< HEAD
 git clone https://github.com/munsa1/to-do-list.git
+=======
+git clone https://github.com/munsa1/to-do-test.git
+>>>>>>> 56de60e763155eeb8a44d3e816eb23934d8e1d56
 =======
 git clone https://github.com/munsa1/to-do-test.git
 >>>>>>> 56de60e763155eeb8a44d3e816eb23934d8e1d56
@@ -68,8 +72,11 @@ Give a ⭐️ if you like this project!
 Data Fair Blog (https://data-flair.training/blogs/javascript-project-to-do-list/)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 (https://www.youtube.com/watch?v=cOUNOi297Mw)
 
+=======
+>>>>>>> 56de60e763155eeb8a44d3e816eb23934d8e1d56
 =======
 >>>>>>> 56de60e763155eeb8a44d3e816eb23934d8e1d56
 ## 📝 License
