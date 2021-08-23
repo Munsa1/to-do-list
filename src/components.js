@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 import store from './todo-store.js';
 
 function iconButton(name) {
+=======
+import './style.css';
+
+export function iconButton(name) {
+>>>>>>> 56de60e763155eeb8a44d3e816eb23934d8e1d56
   const node = document.createElement('button');
   node.classList.add('icon-button');
 
@@ -12,6 +18,7 @@ function iconButton(name) {
   return node;
 }
 
+<<<<<<< HEAD
 export function listItemComponent({
   index, description, completed, onToggle, onSwap, onEdit, onDelete,
 }) {
@@ -48,23 +55,35 @@ export function listItemComponent({
   });
 
   // Todo toggle checkbox
+=======
+export function listItemComponent({ description, completed }) {
+  const node = document.createElement('li');
+  node.classList.add('todo');
+
+>>>>>>> 56de60e763155eeb8a44d3e816eb23934d8e1d56
   const checkbox = iconButton(completed ? 'done' : 'check_box_outline_blank');
   checkbox.classList.add('toggle');
   if (completed) {
     node.classList.add('todo-completed');
     checkbox.classList.add('todo-completed');
   }
+<<<<<<< HEAD
   checkbox.addEventListener('click', () => {
     onToggle(index);
   });
 
   // Todo description input
+=======
+  checkbox.addEventListener('click', () => {});
+
+>>>>>>> 56de60e763155eeb8a44d3e816eb23934d8e1d56
   const text = document.createElement('input');
   text.value = description;
   text.classList.add('edit');
   text.addEventListener('keyup', (event) => {
     if (event.key === 'Enter') {
       event.preventDefault();
+<<<<<<< HEAD
       onEdit(index, event.target.value);
     }
   });
@@ -82,6 +101,19 @@ export function listItemComponent({
   deleteButton.addEventListener('mousedown', () => {
     onDelete(index);
   });
+=======
+      // console.log(event.target.value);
+    }
+  });
+
+  const dragButton = iconButton('more_vert');
+  dragButton.classList.add('drag-button', 'opacity-2');
+  dragButton.addEventListener('mousedown', () => {});
+
+  const deleteButton = iconButton('delete_outline');
+  deleteButton.classList.add('opacity-5', 'hide');
+  deleteButton.addEventListener('mousedown', () => {});
+>>>>>>> 56de60e763155eeb8a44d3e816eb23934d8e1d56
 
   node.appendChild(checkbox);
   node.appendChild(text);
@@ -94,6 +126,7 @@ export function listItemComponent({
   };
 
   text.addEventListener('focus', toggleButtons);
+<<<<<<< HEAD
   text.addEventListener('blur', (event) => {
     toggleButtons();
     onEdit(index, event.target.value);
@@ -114,4 +147,11 @@ export default function addItemsToDOM(items = []) {
       onDelete: (index) => store.deleteTodo(index),
     }));
   });
+=======
+  text.addEventListener('blur', () => {
+    toggleButtons();
+  });
+
+  return node;
+>>>>>>> 56de60e763155eeb8a44d3e816eb23934d8e1d56
 }
