@@ -6,7 +6,7 @@
 
 ![screenshot](./screenshot.png)
 
-[Live Demo Link](https://munsa1.github.io/to-do-list/dist)
+[Live Demo Link](https://munsa1.github.io/to-do-test/dist)
 
 "To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.
 
@@ -27,15 +27,7 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
 
 ```cmd
-<<<<<<< HEAD
-<<<<<<< HEAD
-git clone https://github.com/munsa1/to-do-list.git
-=======
 git clone https://github.com/munsa1/to-do-test.git
->>>>>>> 56de60e763155eeb8a44d3e816eb23934d8e1d56
-=======
-git clone https://github.com/munsa1/to-do-test.git
->>>>>>> 56de60e763155eeb8a44d3e816eb23934d8e1d56
 cd ./to-do-test
 ```
 
@@ -71,14 +63,6 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 Data Fair Blog (https://data-flair.training/blogs/javascript-project-to-do-list/)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-(https://www.youtube.com/watch?v=cOUNOi297Mw)
-
-=======
->>>>>>> 56de60e763155eeb8a44d3e816eb23934d8e1d56
-=======
->>>>>>> 56de60e763155eeb8a44d3e816eb23934d8e1d56
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
